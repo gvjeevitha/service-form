@@ -1,0 +1,10 @@
+<form action="https://yourinstance.salesforce.com/servlet/servlet.WebToCase?encoding=UTF-8" method="POST">
+    <input type="hidden" name="orgid" value="YOUR_ORG_ID" />
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required />
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required />
+    <label for="description">Description:</label>
+    <textarea id="description" name="description" required></textarea>
+    <input type="submit" value="Submit" />
+</form>
